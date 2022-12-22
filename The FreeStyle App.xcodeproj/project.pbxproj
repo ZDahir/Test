@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		186640C926CC79DD00DC470D /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186640C826CC79DC00DC470D /* NoteCell.swift */; };
+		186640CB26CC7A9E00DC470D /* NoteDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186640CA26CC7A9E00DC470D /* NoteDetailVC.swift */; };
+		186C3F9226C3119C00EAF173 /* SavedRhymesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186C3F9126C3119C00EAF173 /* SavedRhymesViewController.swift */; };
+		188B996C26A3E0D000330545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B996B26A3E0D000330545 /* AppDelegate.swift */; };
+		188B997026A3E0D000330545 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B996F26A3E0D000330545 /* HomeViewController.swift */; };
+		188B997326A3E0D000330545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188B997126A3E0D000330545 /* Main.storyboard */; };
+		188B997826A3E0D600330545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188B997726A3E0D600330545 /* Assets.xcassets */; };
+		188B997B26A3E0D600330545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188B997926A3E0D600330545 /* LaunchScreen.storyboard */; };
+		AF0DBAFE281BF63E0044F425 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0DBAFD281BF63E0044F425 /* FavoritesViewController.swift */; };
+		AF15176828268ED60063DCA5 /* OnBoardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF15176728268ED60063DCA5 /* OnBoardingVC.swift */; };
+		AF15176A282692890063DCA5 /* OnBoardingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF151769282692890063DCA5 /* OnBoardingCell.swift */; };
+		AF15176C282692DA0063DCA5 /* Model_Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF15176B282692DA0063DCA5 /* Model_Onboarding.swift */; };
+		AF1882DD288FA460006EF72F /* Model_Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1882DC288FA460006EF72F /* Model_Words.swift */; };
+		AF5CBA28281BEA9400C24063 /* Model_Rhymes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5CBA27281BEA9400C24063 /* Model_Rhymes.swift */; };
+		AF5CBA2B281BEBBC00C24063 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5CBA2A281BEBBC00C24063 /* DBHelper.swift */; };
+		AF5CBA2D281BEBE500C24063 /* data.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = AF5CBA2C281BEBE500C24063 /* data.sqlite */; };
+		AF5D04AC282A9C790041B94A /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5D04AB282A9C790041B94A /* Connectivity.swift */; };
+		AF74DDE8281DAE6F00B7665F /* Dialog_SaveVerse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF74DDE7281DAE6F00B7665F /* Dialog_SaveVerse.swift */; };
+		C762CF7E6B0511F48C155643 /* Pods_The_FreeStyle_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7531E3E83AD7B8732DB3931A /* Pods_The_FreeStyle_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		186640C826CC79DC00DC470D /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		186640CA26CC7A9E00DC470D /* NoteDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailVC.swift; sourceTree = "<group>"; };
+		186C3F9126C3119C00EAF173 /* SavedRhymesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedRhymesViewController.swift; sourceTree = "<group>"; };
+		188B996826A3E0D000330545 /* The FreeStyle App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The FreeStyle App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		188B996B26A3E0D000330545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		188B996F26A3E0D000330545 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		188B997226A3E0D000330545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		188B997726A3E0D600330545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		188B997A26A3E0D600330545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		188B997C26A3E0D600330545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70A99E4489FC474BC3ECE5BA /* Pods-The FreeStyle App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The FreeStyle App.release.xcconfig"; path = "Target Support Files/Pods-The FreeStyle App/Pods-The FreeStyle App.release.xcconfig"; sourceTree = "<group>"; };
+		7531E3E83AD7B8732DB3931A /* Pods_The_FreeStyle_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_FreeStyle_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD74FD05B5DB930C7465389 /* Pods-The FreeStyle App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The FreeStyle App.debug.xcconfig"; path = "Target Support Files/Pods-The FreeStyle App/Pods-The FreeStyle App.debug.xcconfig"; sourceTree = "<group>"; };
+		AF0DBAFD281BF63E0044F425 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		AF15176728268ED60063DCA5 /* OnBoardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingVC.swift; sourceTree = "<group>"; };
+		AF151769282692890063DCA5 /* OnBoardingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCell.swift; sourceTree = "<group>"; };
+		AF15176B282692DA0063DCA5 /* Model_Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_Onboarding.swift; sourceTree = "<group>"; };
+		AF1882DC288FA460006EF72F /* Model_Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_Words.swift; sourceTree = "<group>"; };
+		AF5CBA27281BEA9400C24063 /* Model_Rhymes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_Rhymes.swift; sourceTree = "<group>"; };
+		AF5CBA2A281BEBBC00C24063 /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		AF5CBA2C281BEBE500C24063 /* data.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = data.sqlite; sourceTree = "<group>"; };
+		AF5D04AB282A9C790041B94A /* Connectivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		AF74DDE7281DAE6F00B7665F /* Dialog_SaveVerse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog_SaveVerse.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188B996526A3E0D000330545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C762CF7E6B0511F48C155643 /* Pods_The_FreeStyle_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183E4DA426C209D8009AC4E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				188B996B26A3E0D000330545 /* AppDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		183E4DA526C209FF009AC4E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				183E4DA626C20A21009AC4E2 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		183E4DA626C20A21009AC4E2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				188B997126A3E0D000330545 /* Main.storyboard */,
+				188B997926A3E0D600330545 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		183E4DA726C20A47009AC4E2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				188B996F26A3E0D000330545 /* HomeViewController.swift */,
+				186C3F9126C3119C00EAF173 /* SavedRhymesViewController.swift */,
+				186640C826CC79DC00DC470D /* NoteCell.swift */,
+				186640CA26CC7A9E00DC470D /* NoteDetailVC.swift */,
+				AF0DBAFD281BF63E0044F425 /* FavoritesViewController.swift */,
+				AF74DDE7281DAE6F00B7665F /* Dialog_SaveVerse.swift */,
+				AF15176628268EB90063DCA5 /* OnBoarding */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		183E4DA826C20A65009AC4E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF5CBA27281BEA9400C24063 /* Model_Rhymes.swift */,
+				AF15176B282692DA0063DCA5 /* Model_Onboarding.swift */,
+				AF1882DC288FA460006EF72F /* Model_Words.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		188B995F26A3E0D000330545 = {
+			isa = PBXGroup;
+			children = (
+				188B996A26A3E0D000330545 /* The FreeStyle App */,
+				188B996926A3E0D000330545 /* Products */,
+				9174473E1E7372E54D0E3333 /* Pods */,
+				F9DE835885F6F2CFCBC203B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		188B996926A3E0D000330545 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188B996826A3E0D000330545 /* The FreeStyle App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188B996A26A3E0D000330545 /* The FreeStyle App */ = {
+			isa = PBXGroup;
+			children = (
+				AF5CBA29281BEBA300C24063 /* ConstantClasses */,
+				183E4DA426C209D8009AC4E2 /* Resources */,
+				183E4DA826C20A65009AC4E2 /* Models */,
+				183E4DA526C209FF009AC4E2 /* Views */,
+				183E4DA726C20A47009AC4E2 /* Controllers */,
+				188B997C26A3E0D600330545 /* Info.plist */,
+				188B997726A3E0D600330545 /* Assets.xcassets */,
+				AF5CBA2C281BEBE500C24063 /* data.sqlite */,
+			);
+			path = "The FreeStyle App";
+			sourceTree = "<group>";
+		};
+		9174473E1E7372E54D0E3333 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DD74FD05B5DB930C7465389 /* Pods-The FreeStyle App.debug.xcconfig */,
+				70A99E4489FC474BC3ECE5BA /* Pods-The FreeStyle App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF15176628268EB90063DCA5 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				AF15176728268ED60063DCA5 /* OnBoardingVC.swift */,
+				AF151769282692890063DCA5 /* OnBoardingCell.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		AF5CBA29281BEBA300C24063 /* ConstantClasses */ = {
+			isa = PBXGroup;
+			children = (
+				AF5CBA2A281BEBBC00C24063 /* DBHelper.swift */,
+				AF5D04AB282A9C790041B94A /* Connectivity.swift */,
+			);
+			path = ConstantClasses;
+			sourceTree = "<group>";
+		};
+		F9DE835885F6F2CFCBC203B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531E3E83AD7B8732DB3931A /* Pods_The_FreeStyle_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188B996726A3E0D000330545 /* The FreeStyle App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188B997F26A3E0D600330545 /* Build configuration list for PBXNativeTarget "The FreeStyle App" */;
+			buildPhases = (
+				5903053F445633162FC9180A /* [CP] Check Pods Manifest.lock */,
+				188B996426A3E0D000330545 /* Sources */,
+				188B996526A3E0D000330545 /* Frameworks */,
+				188B996626A3E0D000330545 /* Resources */,
+				65B4B2F26586FA295F594244 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The FreeStyle App";
+			productName = "The FreeStyle App";
+			productReference = 188B996826A3E0D000330545 /* The FreeStyle App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188B996026A3E0D000330545 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1320;
+				ORGANIZATIONNAME = "Zaid Dahir";
+				TargetAttributes = {
+					188B996726A3E0D000330545 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 188B996326A3E0D000330545 /* Build configuration list for PBXProject "The FreeStyle App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 188B995F26A3E0D000330545;
+			productRefGroup = 188B996926A3E0D000330545 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188B996726A3E0D000330545 /* The FreeStyle App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188B996626A3E0D000330545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188B997B26A3E0D600330545 /* LaunchScreen.storyboard in Resources */,
+				AF5CBA2D281BEBE500C24063 /* data.sqlite in Resources */,
+				188B997826A3E0D600330545 /* Assets.xcassets in Resources */,
+				188B997326A3E0D000330545 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5903053F445633162FC9180A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-The FreeStyle App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65B4B2F26586FA295F594244 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The FreeStyle App/Pods-The FreeStyle App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The FreeStyle App/Pods-The FreeStyle App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-The FreeStyle App/Pods-The FreeStyle App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188B996426A3E0D000330545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188B997026A3E0D000330545 /* HomeViewController.swift in Sources */,
+				AF15176828268ED60063DCA5 /* OnBoardingVC.swift in Sources */,
+				188B996C26A3E0D000330545 /* AppDelegate.swift in Sources */,
+				AF15176C282692DA0063DCA5 /* Model_Onboarding.swift in Sources */,
+				AF5CBA28281BEA9400C24063 /* Model_Rhymes.swift in Sources */,
+				186640C926CC79DD00DC470D /* NoteCell.swift in Sources */,
+				186C3F9226C3119C00EAF173 /* SavedRhymesViewController.swift in Sources */,
+				AF5CBA2B281BEBBC00C24063 /* DBHelper.swift in Sources */,
+				AF15176A282692890063DCA5 /* OnBoardingCell.swift in Sources */,
+				AF74DDE8281DAE6F00B7665F /* Dialog_SaveVerse.swift in Sources */,
+				AF5D04AC282A9C790041B94A /* Connectivity.swift in Sources */,
+				AF1882DD288FA460006EF72F /* Model_Words.swift in Sources */,
+				186640CB26CC7A9E00DC470D /* NoteDetailVC.swift in Sources */,
+				AF0DBAFE281BF63E0044F425 /* FavoritesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		188B997126A3E0D000330545 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188B997226A3E0D000330545 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		188B997926A3E0D600330545 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188B997A26A3E0D600330545 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		188B997D26A3E0D600330545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		188B997E26A3E0D600330545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		188B998026A3E0D600330545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DD74FD05B5DB930C7465389 /* Pods-The FreeStyle App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YP6X3H62GH;
+				INFOPLIST_FILE = "The FreeStyle App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dahir.Ezryhmes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		188B998126A3E0D600330545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70A99E4489FC474BC3ECE5BA /* Pods-The FreeStyle App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YP6X3H62GH;
+				INFOPLIST_FILE = "The FreeStyle App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dahir.Ezryhmes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188B996326A3E0D000330545 /* Build configuration list for PBXProject "The FreeStyle App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188B997D26A3E0D600330545 /* Debug */,
+				188B997E26A3E0D600330545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188B997F26A3E0D600330545 /* Build configuration list for PBXNativeTarget "The FreeStyle App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188B998026A3E0D600330545 /* Debug */,
+				188B998126A3E0D600330545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188B996026A3E0D000330545 /* Project object */;
+}

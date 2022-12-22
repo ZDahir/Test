@@ -1,0 +1,6 @@
+framework module Pods_The_FreeStyle_App {
+  umbrella header "Pods-The FreeStyle App-umbrella.h"
+
+  export *
+  module * { export * }
+}
